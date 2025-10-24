@@ -1,0 +1,5 @@
+URL,Langs,ResponseCode,Status
+https://microsoft.com/aboutusd,"[ar,ja,de]",200,
+https://google.com,"[ar,ja,de]",200,Published
+https://reddit.com/,[],200,Unpublished
+https://www.fun.com/adf,[de],404,Processing
