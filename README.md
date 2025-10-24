@@ -26,10 +26,14 @@ Reads an input CSV with `URL`, `Langs`, and `Status` columns, checks each link�
 
 ## ⚙️ Usage
 ### Basic command
-```python check_urls_response_code.py -i urls.csv```
+```
+python check_urls_response_code.py -i urls.csv
+```
 
 Specify an output directory
-```python check_urls_response_code.py -i urls.csv -o ./results/```
+```
+python check_urls_response_code.py -i urls.csv -o ./results/
+```
 
 
 The script will generate an output file such as:
@@ -81,23 +85,34 @@ You can modify these constants at the top of the script for your system/network:
 - TIMEOUT = 10      # Seconds to wait per request
 
 Increasing MAX_WORKERS speeds up large batches but uses more network bandwidth.
+
 Lower TIMEOUT values will skip slow or unresponsive sites faster.
 
 ## 🧑‍💻 Development Setup
-```git clone https://github.com/<yourusername>/url-response-checker.git```
-```cd url-response-checker```
+```
+git clone https://github.com/<yourusername>/url-response-checker.git
+```
+```
+cd url-response-checker
+```
 
 ### Create and activate a virtual environment
-```python -m venv venv```
+```
+python -m venv venv
+```
 `venv\Scripts\activate   # Windows`
  or
 `source venv/bin/activate   # macOS/Linux`
 
 ### Install dependencies
-```pip install requests colorama```
+```
+pip install requests colorama
+```
 
 ### Run the script
-```python check_urls_response_code.py -i urls.csv```
+```
+python check_urls_response_code.py -i urls.csv
+```
 
 ## 💡 Example Use Cases
 - Validate large website link sets for SEO or migration QA
