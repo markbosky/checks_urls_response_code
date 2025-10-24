@@ -25,11 +25,11 @@ Reads an input CSV with `URL`, `Langs`, and `Status` columns, checks each link�
   pip install requests colorama
 
 ## ⚙️ Usage
-- Basic command
-`python check_urls_response_code.py -i urls.csv`
+### Basic command
+```python check_urls_response_code.py -i urls.csv```
 
 Specify an output directory
-`python check_urls_response_code.py -i urls.csv -o ./results/`
+```python check_urls_response_code.py -i urls.csv -o ./results/```
 
 
 The script will generate an output file such as:
@@ -85,10 +85,10 @@ Lower TIMEOUT values will skip slow or unresponsive sites faster.
 
 ## 🧑‍💻 Development Setup
 ```git clone https://github.com/<yourusername>/url-response-checker.git```
-`cd url-response-checker`
+```cd url-response-checker```
 
 ### Create and activate a virtual environment
-`python -m venv venv`
+```python -m venv venv```
 `venv\Scripts\activate   # Windows`
  or
 `source venv/bin/activate   # macOS/Linux`
@@ -105,3 +105,7 @@ Lower TIMEOUT values will skip slow or unresponsive sites faster.
 - Verify partner or vendor availability across global domains
 - Track redirect and uptime behavior across URLs
 - Test API endpoints for availability and latency issues
+ 
+## 🧾 License
+This project is licensed under the MIT License.
+You’re free to use, modify, and distribute it with attribution.
