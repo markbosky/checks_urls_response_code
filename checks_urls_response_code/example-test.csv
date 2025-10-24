@@ -1,0 +1,7 @@
+URL,Langs,Status
+https://www.google.com,en,Active
+https://www.microsoft.com,en,Active
+https://httpstat.us/404,en,Inactive
+https://httpstat.us/500,en,Inactive
+https://example.com,fr,Active
+https://fun.com/adfa,ar,Unknown

@@ -1,0 +1,7 @@
+URL,Langs,ResponseCode,Status
+https://www.microsoft.com,en,200,Active
+https://www.google.com,en,200,Active
+https://example.com,fr,200,Active
+https://httpstat.us/404,en,ERROR,Inactive
+https://httpstat.us/500,en,ERROR,Inactive
+https://fun.com/adfa,ar,404,Unknown
